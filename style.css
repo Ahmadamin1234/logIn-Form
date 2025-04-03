@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #fff;
+    cursor:auto;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    padding: 40px;
+    text-align: center;
+    background: #000;
+    border-radius: 8px;
+    cursor: default;
+}
+.box h1{
+    color: #2ecc71;
+    text-transform: uppercase;
+    font-family: 'PT Sans',sans-serif;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    display: block;
+    background: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #8e44ad;
+    padding: 14px 5px;
+    border-radius: 25px;
+    transition: o.5s;
+    width: 160px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    border-color:#2ecc71 ;
+    width: 180px;
+}
+.box input[type="button"]{
+    border: 0;
+    display: block;
+    background: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid #8e44ad;
+    padding: 14px 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.box input[type="button"]:hover{
+    background-color: #2ecc71;
+    color:white;
+    cursor: pointer;
+    border-color: #2ecc71;
+}
+.box h3{
+    color: white;
+    text-align:center;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-family: 'PT Sans',sans-serif;
+}
+.box a{
+    text-decoration: none;
+    color: #2ecc71;
+    font-weight: bold;
+    font-style: italic;
+}
+
